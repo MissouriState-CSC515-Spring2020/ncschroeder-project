@@ -1,1 +1,1 @@
-document.getElementById("text").textContent = "Hello World";
+document.getElementById('text').textContent = 'Hello World';
