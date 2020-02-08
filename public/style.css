@@ -1,3 +1,8 @@
+/*h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
 img {
     width: 200px;
 }
@@ -6,6 +11,16 @@ img {
     width: 400px;
 }
 
-h1 {
-    font-size: 50px;
+.detailed_picture_details {
+    margin: 0 auto;
+    width: 50%;
 }
+
+#categories {
+    text-align: center;
+}
+
+#home_page_pictures {
+    margin: 0 auto;
+}
+*/

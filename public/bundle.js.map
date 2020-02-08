@@ -1,1 +1,1 @@
-{"version":3,"file":"bundle.js","sources":["../src/main.js"],"sourcesContent":["document.getElementById('text').textContent = 'Hello World';"],"names":["document","getElementById","textContent"],"mappings":"yBAAAA,SAASC,eAAe,QAAQC,YAAc"}
+{"version":3,"file":"bundle.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
