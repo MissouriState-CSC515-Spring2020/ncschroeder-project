@@ -1,3 +1,2 @@
-# Repository for class project
-
-This readme is a placeholder that should be replaced
+# Directions
+Use npm run build to build the application and npm start to start the server
