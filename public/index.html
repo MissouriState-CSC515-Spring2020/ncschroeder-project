@@ -1,55 +1,17 @@
-<!doctype html>
-<html>
-<head lang='en'>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width, initial-scale=1'>
-	<title>Pictures</title>
-	<!--Bulma framework-->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-</head>
-
-<body>
-	<div class="container">
-		<div class="block">
-			<h1 class="title">Pictures</h1>
-		</div>
-		
-		<div class="block">
-			<h2 class="title is-5">Categories</h2>
-			<a href='cities.html'>Nature</a>
-			<a href='cities.html'>Cities</a>
-			<a href='cities.html'>Math</a>
-		</div>
-
-		<div class="block">
-			<figure class="image is-128x128">
-				<a href="detailed_picture.html">
-					<img src="Pictures/nature1.jpg">
-				</a>
-			</figure>
-			<figure class="image is-128x128">
-				<a href="detailed_picture.html">
-					<img src="Pictures/city1.jpg">
-				</a>
-			</figure>
-			<figure class="image is-128x128">
-				<a href="detailed_picture.html">
-					<img src="Pictures/golden_spiral.JPG">
-				</a>
-			</figure>
-			<figure class="image is-128x128">
-				<a href="detailed_picture.html">
-					<img src="Pictures/nature2.jpg">
-				</a>
-			</figure>
-			<figure class="image is-128x128">
-				<a href="detailed_picture.html">
-					<img src="Pictures/city2.jpg">
-				</a>
-			</figure>
-		</div>
-	</div>
-	
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>
