@@ -21,7 +21,6 @@
 				<router-link to="/CityPictures">Math</router-link>
 			</div>
 		</div>
-
 	</div>
 </template>
 
