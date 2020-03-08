@@ -8,6 +8,20 @@
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      install_button: "none",
+      installer: undefined
+    };
+  },
+
+  created() {
+  }
+}
+</script>
+
 <style>
 #app {
   font-family: fantasy;
