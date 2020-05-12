@@ -11,17 +11,17 @@ const routes = [
     component: Home
   },
   {
-    path: '/CityPictures',
-    name: 'CityPictures',
+    path: '/ibx2cat',
+    name: 'ibx2cat',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/CityPictures.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/ibx2cat.vue')
   },
   {
-    path: '/GoldenSpiral',
-    name: 'GoldenSpiral',
-    component: () => import('../views/GoldenSpiral.vue')
+    path: '/ChampagneSupernova',
+    name: 'ChampagneSupernova',
+    component: () => import('../views/ChampagneSupernova.vue')
   }
 ]
 
