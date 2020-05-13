@@ -27,8 +27,8 @@ export default {
 		axios.get(this.ibx2catPlaylistURL).then( response => {
 			response.data.items.forEach(element => 
 			this.videos.push({'title': element.snippet.title, 
-			'description': element.snippet.description, 'publishDate': 
-			element.snippet.publishedAt}));
+				'description': element.snippet.description, 'publishDate': 
+				element.snippet.publishedAt}));
 		});	
 	}
 }

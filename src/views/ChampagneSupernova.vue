@@ -24,8 +24,8 @@ export default {
     mounted: function() {
         axios.get(this.searchResultsURL).then( response => {
             response.data.items.forEach(element => 
-            this.results.push({'title': element.snippet.title, 'description': 
-            element.snippet.description, 'publishDate': element.snippet.publishedAt}));
+                this.results.push({'title': element.snippet.title, 'description': 
+                element.snippet.description, 'publishDate': element.snippet.publishedAt}));
         })
     }
 }
